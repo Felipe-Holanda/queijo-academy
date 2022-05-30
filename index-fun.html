@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Queijo Academy</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Favicons personalizados -->
+    <link rel="icon" href="./favicon.ico">
+</head>
+<body>
+    <header id="start">
+        <ul>
+            <img class="logo" src="./queijo-academy.png" alt="Logo da Queijo Academy">
+            <h1>Blog da Queijo</h1>
+            <div class="navlinks">
+                <li><a href="#">Início</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <article id="primeiro" class="noticia">
+            <h2>Quejo canastra não tem nada Haver com baralho!</h2>
+            <p>
+                    Após a descoberta recente de que a canastra do queijo não tem nada haver com o baralho,
+                alguns entusiastas de queijo fizeram uma pesquisa para descobrir o porquê. Investimentos em
+                baralhos da marca Cogap em Minas Gerais despencaram de forma assustadora! O queijo não tem nada
+                haver com baralho e isto não pode ser descartado. Veja a opinião dos especialistas s...
+            </p>
+            <small>Escrito por: Sergim do Queijo</small>
+            <button onclick="aviso()" class="leiamais">Continue lendo</button>
+        </article>
+        <article id="segundo" class="noticia">
+            <h2>Descobrimos qual o Queijo do Transformice!</h2>
+            <p>
+                    Foi noite de festa em nossa equipe Tech-code! Após longas horas de debate, chegamos a um
+                veredito! Onde concluimos que o tipo de queijo utilizado no Transformice é o queijo dos sonhos
+                de todos os mineiros! Este é o queijo que você deve conhecer! Disco...
+            </p>
+            <small>Escrito por: Barão Rei-queijão</small>
+            <button onclick="aviso()" class="leiamais">Continue lendo</button>
+        </article>
+        <article id="terceiro" class="noticia">
+            <h2>Mineirinho Ultra Adventures é problematico, saiba o porquê! </h2>
+            <p>
+                    Embora o jogo seja um dos mais divertidos do mundo, não é possível compreender como que um 
+                personagem que representa um mineiro não gosta de queijo, torresmo e churrasco?! Abrimos nosso
+                fórum online e descobrimos que o queijo não é um problema para o mineirinho Ultra Adventures. E
+                o motivo vai ser surpreendente!
+            </p>
+            <small>Escrito por: QueijoMaster77</small>
+            <button onclick="aviso()" class="leiamais">Continue lendo</button>
+        </article>
+    </main>
+    <nav id="artigos">
+        <h2>Artigos</h2>
+        <ul>
+            <li><a class="gridnoticias" href="#primeiro">Quejo canastra não tem nada Haver com baralho!</a></li>
+            <li><a class="gridnoticias" href="#segundo">Descobrimos qual o Queijo do Transformice!</a></li>
+            <li><a class="gridnoticias" href="#terceiro">Mineirinho Ultra Adventures é problematico...</a></li>
+        </ul>
+    </nav>
+    <footer display="none" id="newsletter">
+        <span id="nav_fecha" title="Não desejo me inscrever na NewsLetter" onclick="fecha_nav()">x</span>
+        <small>Todos os direitos reservados</small>
+        <div class="pre-cadastro">
+            <form  id="newsletter-form">
+                <h4>Inscreva-se em nossa newsletter!</h4>
+            <input id="newinpt" class="newinpt" type="email" placeholder="Digite o seu melhor email" required>
+            <input for="newinpt" class="newbtn" type="submit" value="Cadastrar">
+            </form>
+            <div id="especial">
+                <small> Made with &lt;3 by <a href="https://github.com/Felipe-Holanda" target="_blank">Felipe Holanda</a></small>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
