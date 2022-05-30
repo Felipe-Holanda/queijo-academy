@@ -5,3 +5,8 @@ function fecha_nav() {
     document.getElementById('nav_fecha').style.display = 'none';
     document.getElementById('especial').style.display = '';
 }
+
+function aviso() {
+    alert('Olá! Esta página é uma sátira!\n' +
+        'nenhum botão ou link é definitivamente funcional\n');
+}
